@@ -1,6 +1,6 @@
 # Diabetes Prediction Project
 
-This project trains a simple neural network model to predict the likelihood of diabetes based on synthetic patient data.
+This project trains a simple neural network model to predict the likelihood of diabetes based on synthetic patient data. Enjoy!
 
 ## Project Structure
 
