@@ -106,8 +106,7 @@ def main():
     
     args = parser.parse_args()
     
-    # Set up MLflow tracking
-    mlflow.set_experiment("Diabetes_Prediction_fdemo")
+
     
     # Device configuration
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
