@@ -183,7 +183,7 @@ def main():
         # Also log the saved model file as an artifact
         mlflow.log_artifact(model_path)
         
-        print(f"Training completed. Final validation loss: {val_loss:.4f}, Accuracy: {accuracy:.4f}")
+        print(f"Training completed!! Final validation loss: {val_loss:.4f}, Accuracy: {accuracy:.4f}")
 
 if __name__ == "__main__":
     main()
